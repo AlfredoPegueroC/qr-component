@@ -1,0 +1,45 @@
+/* FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: hsl(212, 45%, 89%);
+}
+.card {
+  background: #fff;
+  max-width: 320px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Outfit", sans-serif;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card .title {
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+.card .description {
+  font-size: 0.95rem;
+  padding: 15px;
+  color: #00000088;
+  margin-bottom: 10px;
+}
